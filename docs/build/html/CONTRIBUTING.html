@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contributing to my_project &#8212; my_project 0.1.0RC documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="My project’s changelog" href="changelog.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="contributing-to-my-project">
+<h1>Contributing to my_project<a class="headerlink" href="#contributing-to-my-project" title="Permalink to this headline">¶</a></h1>
+<p>This document provides guidelines for contributions to <code class="docutils literal notranslate"><span class="pre">my</span> <span class="pre">porject</span></code>.</p>
+<p><strong>Kinds of contribution</strong></p>
+<ul class="simple">
+<li><p>Typo fixes</p></li>
+<li><p>Documentation enhancements</p></li>
+<li><p>Pull requests</p></li>
+</ul>
+<p><strong>Fixing typos and enhancing documentation</strong></p>
+<p>To fix typos and/or grammatical errors, please edit the corresponding <code class="docutils literal notranslate"><span class="pre">.py</span></code> or <code class="docutils literal notranslate"><span class="pre">.md</span></code> file that
+generates the documentation.</p>
+<p>Please also update documentation by running <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">scripts/mkdocs.sh</span></code> as described also later.</p>
+<p><strong>Pull Requests</strong></p>
+<ul class="simple">
+<li><p>Please raise an issue for discussion and reproducibility checks at <a class="reference external" href="https://github.com/Nelson-Gon/my_project/issues">https://github.com/Nelson-Gon/my_project/issues</a></p></li>
+<li><p>Once the bug/enhancement is approved, please create a Git branch for the pull request.</p></li>
+<li><p>Make changes and ensure that builds are passing the necessary checks on Travis.</p></li>
+<li><p>Update <code class="docutils literal notranslate"><span class="pre">changelog.md</span></code> to reflect the changes made.</p></li>
+<li><p>Do the following:</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bash</span> <span class="n">scripts</span><span class="o">/</span><span class="n">mkdocs</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/">See also</a> for a guide on Sphinx documentation.</p>
+<p><strong>Commit messages</strong></p>
+<p>Please write commit messages in the format “Extends functionality” instead of “Extended functionality”.</p>
+<p><strong>Maintainers only notice</strong></p>
+<p><strong>Releasing</strong></p>
+<p>This should ideally not be run since we are auto-releasing via a GitHub action. If for some reason you would like to release a new version manually, then:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>bash scripts/release.sh
+</pre></div>
+</div>
+<p>The above does the following:</p>
+<ul class="simple">
+<li><p>Makes <code class="docutils literal notranslate"><span class="pre">dist</span></code> with <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">setup.py</span> <span class="pre">sdist</span></code> at the very minimum. Ensure everything necessary is included in
+<code class="docutils literal notranslate"><span class="pre">Manifest.in</span></code>.</p></li>
+<li><p>Uploads <code class="docutils literal notranslate"><span class="pre">dist</span></code> to test.pypi.org with <code class="docutils literal notranslate"><span class="pre">twine</span> <span class="pre">upload</span> <span class="pre">--repository-url</span> <span class="pre">https://test.pypi.org/legacy/</span> <span class="pre">dist/*</span></code></p></li>
+<li><p>If everything looks good, asks you to upload to pypi.org with <code class="docutils literal notranslate"><span class="pre">twine</span> <span class="pre">upload</span> <span class="pre">dist/*</span></code></p></li>
+</ul>
+<p>Please note that the ‘my_project’ project is released with a
+<a class="reference external" href="https://github/com/Nelson-Gon/my_project/.github/CODE_OF_CONDUCT.md">Contributor Code of Conduct</a>.
+By contributing to this project, you agree to abide by its terms.</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">my_project</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="modules.html">templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html">My Project: What the project does</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#installation-guide">Installation Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#currently-implemented-features">Currently implemented features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#features-that-need-further-attention">Features that need further attention</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#important-notes">Important Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">My project’s changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html#changes-in-project-version">Changes in project version</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing to my_project</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="changelog.html" title="previous chapter">My project’s changelog</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Nelson Gonzabato.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/CONTRIBUTING.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -10,7 +10,6 @@ class TestProject(unittest.TestCase):
 
     def test_hello_text_print(self):
         my_obj = hello_world.HelloWorld(hello_text="Hello World")
-        print(my_obj.print_text())
         self.assertEqual(my_obj.print_text(), "Hello World")
 
         with self.assertRaises(AssertionError) as err:
