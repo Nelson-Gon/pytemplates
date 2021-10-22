@@ -14,13 +14,13 @@ pip install my_project
 
 `my_project` currently does the following:
 
-- [ ] Contains base class `HelloWorld` 
+- [x] Contains base class `HelloWorld` 
 
-- [ ] `HelloWorld` has the `print_text` method that prints user supplied text. 
+- [x] `HelloWorld` has the `print_text` method that prints user supplied text. 
 
-- [ ] A github action to test project installation and run tests.
+- [x] A github action to test project installation and run tests.
 
-- [ ] A github action to release on PyPI (requires adding `PYPI_USERNAME` and `PYPI_PASSWORD` to repository secrets.)
+- [x] A github action to release on PyPI (requires adding `PYPI_USERNAME` and `PYPI_PASSWORD` to repository secrets.)
 
 # Features that need further attention 
 
