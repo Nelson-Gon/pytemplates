@@ -6,7 +6,7 @@ def main():
 
     # Add args as required
 
-    args_parser.add_argument("-t", "hello-text", required=True, default="Hello World")
+    args_parser.add_argument("-t", "--text", required=True, default="Hello World")
 
     # Make boolean
     def make_bool(in_str):
@@ -19,7 +19,7 @@ def main():
 
     use_arguments = args_parser.parse_args()
     # Create a HelloWorld object
-    use_object = HelloWorld(use_arguments.hello_text)
+    use_object = HelloWorld(use_arguments.text)
 
     try:
         use_object.print_text()
