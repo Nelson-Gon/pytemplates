@@ -2,7 +2,7 @@
 
 Welcome to my project. 
 
-**Please note that this is a template repository, click use template to use in a new project and edit files as required**. Also, see important notes at the end of this file. 
+**Please note that this is a template repository, click use template (do not fork unless suggesting an improvement) to use in a new project and edit files as required**. Also, see important notes at the end of this file. 
 
 # Installation Guide
 
@@ -56,7 +56,7 @@ NelsonGon
 
 # Important Notes 
 
-This repository holds templates that follow my typical workflow for new `python` and `R` projects.
+This repository holds templates that follow my typical workflow for new `python` projects.
 
 **A word of caution**
 
