@@ -1,8 +1,8 @@
 
-My Project: What the project does
-=================================
+Our Project: What the project does
+==================================
 
-Welcome to my project. 
+Welcome to our project. 
 
 **Please note that this is a template repository, click use template (do not fork unless suggesting an improvement) to use in a new project and edit files as required**. Also, see important notes at the end of this file. 
 
@@ -11,12 +11,12 @@ Installation Guide
 
 .. code-block:: shell
 
-   pip install my_project
+   pip install our_project
 
 Currently implemented features
 ==============================
 
-``my_project`` currently does the following:
+``our_project`` currently does the following:
 
 
 * 
@@ -48,7 +48,9 @@ Please edit ``docs/source/index.rst`` and ``docs/source/modules.rst`` as require
 
    ./scripts/mkdocs.sh
 
-The above assumes you are at the root of "my_project". 
+The above assumes you are at the root of "our_project". 
+
+Also delete ``setup.rst``\ , ``tests.rst``\ , if they exist. 
 
 Otherwise, run and edit as necessary.  
 
@@ -66,7 +68,7 @@ NelsonGon
 Important Notes
 ===============
 
-This repository holds templates that follow my typical workflow for new ``python`` projects.
+This repository holds templates that follow a typical workflow for new ``python`` projects.
 
 **A word of caution**
 

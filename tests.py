@@ -1,7 +1,7 @@
 # inport testing framework here
 # Currently using unittest but can import pytest instead
 import unittest
-from my_project import hello_world
+from our_project import hello_world
 
 class TestProject(unittest.TestCase):
 

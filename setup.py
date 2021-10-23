@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 # Change project to project name here 
 # Choose relevant license as required, add necessary install_requires 
-from my_project.version import __version__
+from our_project.version import __version__
 link_to_use = "https://github.com/Nelson-Gon/project/archive/refs/tags/v"+__version__+".zip"
 setup(name='project',
       version=__version__,

@@ -41,5 +41,5 @@ jobs:
        ./codecov -t ${CODECOV_TOKEN} -R /home/runner/work/pytemplates -f "coverage.xml"
 
     - name: Test Script Mode
-      run: python -m my_project -t "Hello World Project"
+      run: python -m our_project -t "Hello World Project"
 

@@ -15,11 +15,11 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath("../.."))
 
-from my_project.version import __version__
+from our_project.version import __version__
 
 # -- Project information -----------------------------------------------------
 
-project = 'my_project'
+project = 'our_project'
 copyright = '2021, Nelson Gonzabato'
 author = 'Nelson Gonzabato'
 

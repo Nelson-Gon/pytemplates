@@ -1,6 +1,6 @@
 
-Contributing to my_project
-==========================
+Contributing to our_project
+===========================
 
 This document provides guidelines for contributions to ``my porject``.
 
@@ -22,7 +22,7 @@ Please also update documentation by running ``bash scripts/mkdocs.sh`` as descri
 
 
 * 
-  Please raise an issue for discussion and reproducibility checks at https://github.com/Nelson-Gon/my_project/issues
+  Please raise an issue for discussion and reproducibility checks at https://github.com/Nelson-Gon/our_project/issues
 
 * 
   Once the bug/enhancement is approved, please create a Git branch for the pull request.
@@ -64,6 +64,6 @@ The above does the following:
 * Uploads ``dist`` to test.pypi.org with ``twine upload --repository-url https://test.pypi.org/legacy/ dist/*``
 * If everything looks good, asks you to upload to pypi.org with ``twine upload dist/*``
 
-Please note that the 'my_project' project is released with a
-`Contributor Code of Conduct <https://github/com/Nelson-Gon/my_project/.github/CODE_OF_CONDUCT.md>`_.
+Please note that the 'our_project' project is released with a
+`Contributor Code of Conduct <https://github/com/Nelson-Gon/our_project/.github/CODE_OF_CONDUCT.md>`_.
 By contributing to this project, you agree to abide by its terms.

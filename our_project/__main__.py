@@ -1,5 +1,5 @@
 def main():
-    from my_project.hello_world import HelloWorld
+    from our_project.hello_world import HelloWorld
     import argparse
 
     args_parser = argparse.ArgumentParser()
@@ -27,7 +27,7 @@ def main():
         # TODO: Use specific Exception
         raise
     else:
-        print("Thank you for using my_project, please provide feedback at https://github.com/Nelson-Gon/my_project")
+        print("Thank you for using our_project, please provide feedback at https://github.com/Nelson-Gon/our_project")
 
 
 if __name__=="__main__":
