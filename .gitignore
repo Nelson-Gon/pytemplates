@@ -13,6 +13,6 @@ develop-eggs
 #make.bat
 build*
 #Makefile
-.*pycache*
+.*pycache.*
 \.coverage
 venv/
