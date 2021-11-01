@@ -25,7 +25,6 @@ jobs:
     - name: Install package dependencies
       run: |
        python -m pip install --upgrade pip setuptools wheel
-       pip install -r requirements.txt
 
     - name: Install package
       run: pip install -e . 
@@ -37,7 +36,7 @@ jobs:
       run: |
        coverage run tests.py && coverage report -m && coverage xml 
        curl -Os https://uploader.codecov.io/latest/linux/codecov
-       chmod +x codecov
+       chmod +x codecov && pwd
        ./codecov -t ${CODECOV_TOKEN} -R /home/runner/work/pytemplates -f "coverage.xml"
 
     - name: Test Script Mode
