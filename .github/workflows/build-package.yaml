@@ -36,8 +36,8 @@ jobs:
       run: |
        coverage run tests.py && coverage report -m && coverage xml 
        curl -Os https://uploader.codecov.io/latest/linux/codecov
-       chmod +x codecov && pwd
-       ./codecov -t ${CODECOV_TOKEN} -R /home/runner/work/pytemplates -f "coverage.xml"
+       chmod +x codecov 
+       ./codecov -t ${CODECOV_TOKEN} -R basename "$(pwd)"/.. -f "coverage.xml"
 
     - name: Test Script Mode
       run: python -m our_project -t "Hello World Project"
