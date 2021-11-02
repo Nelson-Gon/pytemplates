@@ -7,6 +7,9 @@ Changes in project version
 
 
 * 
+  Project root is now automatically detected for codecov uploads using Github actions. See `Issue #1 <https://github.com/Nelson-Gon/pytempltaes/issues/1>`_. 
+
+* 
   For the install step, we now use ``pip install -e .`` in lieu of the now deprecated ``setup.py install`` and/or ``easy_install``. 
 
 * 
