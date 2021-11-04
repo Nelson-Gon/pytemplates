@@ -28,8 +28,8 @@ Our Project: What the project does
    :alt: Test-Package
 
 
-.. image:: https://img.shields.io/pypi/l/pytemplates.svg
-   :target: https://pypi.python.org/pypi/pytemplates/
+.. image:: https://img.shields.io/pypi/l/our_project.svg
+   :target: https://pypi.python.org/pypi/our_project/
    :alt: PyPI license
 
 
@@ -43,12 +43,12 @@ Our Project: What the project does
    :alt: Total Downloads
 
 
-.. image:: https://pepy.tech/badge/pytemplates/month
+.. image:: https://pepy.tech/badge/our_project/month
    :target: https://pepy.tech/project/our_project
    :alt: Monthly Downloads
 
 
-.. image:: https://pepy.tech/badge/pytemplates/week
+.. image:: https://pepy.tech/badge/our_project/week
    :target: https://pepy.tech/project/our_project
    :alt: Weekly Downloads
 
@@ -73,13 +73,7 @@ Our Project: What the project does
    :alt: GitHub issues-closed
 
 
-**DISCLAIMER**\ : 
-
-This project is not in anyway related to a similarly named package `pytemplates <https://pypi.org/project/pytemplates/>`_ that does something completely different ("Pytemplates is a lightweight HTML template engine written in Python, with support for template inheritance, blocks, macros, context, and Django.").
-
-I only got to learn of this package upon adding badges to this file. 
-
-Welcome to our project. 
+Welcome to ``our_project``. 
 
 **Please note that this is a template repository, click use template (do not fork unless suggesting an improvement) to use in a new project and edit files as required**. Also, see important notes at the end of this file. 
 
@@ -156,3 +150,11 @@ This repository serves an additional purpose of allowing developers new to progr
 For licenses, tests, and workflows, gitignore it is recommended that one generates these automatically either from their IDE of choice or for ``.gitignore`` files and licenses, via github or gitlab. 
 
 Happy to hear from you in case of any questions and/or feedback.
+
+----
+
+**DISCLAIMER**\ : 
+
+This project is not in anyway related to a similarly named package `pytemplates <https://pypi.org/project/pytemplates/>`_ that does something completely different ("Pytemplates is a lightweight HTML template engine written in Python, with support for template inheritance, blocks, macros, context, and Django.").
+
+I only got to learn of this package upon adding badges to this file. 
