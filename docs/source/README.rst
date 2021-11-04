@@ -3,8 +3,8 @@ Our Project: What the project does
 ==================================
 
 
-.. image:: https://badge.fury.io/pytemplates.svg
-   :target: https://pypi.python.org/pypi/pytemplates/
+.. image:: https://badge.fury.io/our_project.svg
+   :target: https://pypi.python.org/pypi/our_project/
    :alt: PyPI version fury.io
 
 
@@ -38,18 +38,18 @@ Our Project: What the project does
    :alt: Documentation Status
 
 
-.. image:: https://pepy.tech/badge/pytemplates
-   :target: https://pepy.tech/project/pytemplates
+.. image:: https://pepy.tech/badge/our_project
+   :target: https://pepy.tech/project/our_project
    :alt: Total Downloads
 
 
 .. image:: https://pepy.tech/badge/pytemplates/month
-   :target: https://pepy.tech/project/pytemplates
+   :target: https://pepy.tech/project/our_project
    :alt: Monthly Downloads
 
 
 .. image:: https://pepy.tech/badge/pytemplates/week
-   :target: https://pepy.tech/project/pytemplates
+   :target: https://pepy.tech/project/our_project
    :alt: Weekly Downloads
 
 
@@ -72,6 +72,12 @@ Our Project: What the project does
    :target: https://GitHub.com/Nelson-Gon/pytemplates/issues?q=is%3Aissue+is%3Aclosed
    :alt: GitHub issues-closed
 
+
+**DISCLAIMER**\ : 
+
+This project is not in anyway related to a similarly named package `pytemplates <https://pypi.org/project/pytemplates/>`_ that does something completely different ("Pytemplates is a lightweight HTML template engine written in Python, with support for template inheritance, blocks, macros, context, and Django.").
+
+I only got to learn of this package upon adding badges to this file. 
 
 Welcome to our project. 
 

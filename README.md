@@ -1,18 +1,24 @@
 # Our Project: What the project does 
-[![PyPI version fury.io](https://badge.fury.io/pytemplates.svg)](https://pypi.python.org/pypi/pytemplates/)
+[![PyPI version fury.io](https://badge.fury.io/our_project.svg)](https://pypi.python.org/pypi/our_project/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3764453.svg)](https://doi.org/10.5281/zenodo.3764453)
 [![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) 
 [![Codecov](https://codecov.io/gh/Nelson-Gon/pytemplates/branch/main/graph/badge.svg)](https://codecov.io/gh/Nelson-Gon/pytemplates?branch=main)
 ![Test-Package](https://github.com/Nelson-Gon/pytemplates/workflows/Test-Package/badge.svg)
 [![PyPI license](https://img.shields.io/pypi/l/pytemplates.svg)](https://pypi.python.org/pypi/pytemplates/)
 [![Documentation Status](https://readthedocs.org/projects/pytemplates/badge/?version=latest)](https://pytemplates.readthedocs.io/en/latest/?badge=latest)
-[![Total Downloads](https://pepy.tech/badge/pytemplates)](https://pepy.tech/project/pytemplates)
-[![Monthly Downloads](https://pepy.tech/badge/pytemplates/month)](https://pepy.tech/project/pytemplates)
-[![Weekly Downloads](https://pepy.tech/badge/pytemplates/week)](https://pepy.tech/project/pytemplates)
+[![Total Downloads](https://pepy.tech/badge/our_project)](https://pepy.tech/project/our_project)
+[![Monthly Downloads](https://pepy.tech/badge/pytemplates/month)](https://pepy.tech/project/our_project)
+[![Weekly Downloads](https://pepy.tech/badge/pytemplates/week)](https://pepy.tech/project/our_project)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Nelson-Gon/pytemplates/graphs/commit-activity)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Nelson-Gon/pytemplates.svg)](https://github.com/Nelson-Gon/pytemplates/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/Nelson-Gon/pytemplates.svg)](https://GitHub.com/Nelson-Gon/pytemplates/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Nelson-Gon/pytemplates.svg)](https://GitHub.com/Nelson-Gon/pytemplates/issues?q=is%3Aissue+is%3Aclosed)
+
+**DISCLAIMER**: 
+
+This project is not in anyway related to a similarly named package [pytemplates](https://pypi.org/project/pytemplates/) that does something completely different ("Pytemplates is a lightweight HTML template engine written in Python, with support for template inheritance, blocks, macros, context, and Django.").
+
+I only got to learn of this package upon adding badges to this file. 
 
 Welcome to our project. 
 
