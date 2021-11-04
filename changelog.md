@@ -1,6 +1,8 @@
 # My project's changelog
 
-# Changes in project version
+- There is now a `replace_text.sh` simple script to replace project templates in files. One can also use an IDE's global replacement abilities. 
+
+- Changes in project versioning 
 
 - Project root is now automatically detected for codecov uploads using Github actions. See [Issue #1](https://github.com/Nelson-Gon/pytempltaes/issues/1). 
 
