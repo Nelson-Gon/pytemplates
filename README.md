@@ -1,4 +1,18 @@
 # Our Project: What the project does 
+[![PyPI version fury.io](https://badge.fury.io/pytemplates.svg)](https://pypi.python.org/pypi/pytemplates/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3764453.svg)](https://doi.org/10.5281/zenodo.3764453)
+[![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) 
+[![Codecov](https://codecov.io/gh/Nelson-Gon/pytemplates/branch/main/graph/badge.svg)](https://codecov.io/gh/Nelson-Gon/pytemplates?branch=main)
+![Test-Package](https://github.com/Nelson-Gon/pytemplates/workflows/Test-Package/badge.svg)
+[![PyPI license](https://img.shields.io/pypi/l/pytemplates.svg)](https://pypi.python.org/pypi/pytemplates/)
+[![Documentation Status](https://readthedocs.org/projects/pytemplates/badge/?version=latest)](https://pytemplates.readthedocs.io/en/latest/?badge=latest)
+[![Total Downloads](https://pepy.tech/badge/pytemplates)](https://pepy.tech/project/pytemplates)
+[![Monthly Downloads](https://pepy.tech/badge/pytemplates/month)](https://pepy.tech/project/pytemplates)
+[![Weekly Downloads](https://pepy.tech/badge/pytemplates/week)](https://pepy.tech/project/pytemplates)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Nelson-Gon/pytemplates/graphs/commit-activity)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Nelson-Gon/pytemplates.svg)](https://github.com/Nelson-Gon/pytemplates/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/Nelson-Gon/pytemplates.svg)](https://GitHub.com/Nelson-Gon/pytemplates/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Nelson-Gon/pytemplates.svg)](https://GitHub.com/Nelson-Gon/pytemplates/issues?q=is%3Aissue+is%3Aclosed)
 
 Welcome to our project. 
 

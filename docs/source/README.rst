@@ -2,6 +2,77 @@
 Our Project: What the project does
 ==================================
 
+
+.. image:: https://badge.fury.io/pytemplates.svg
+   :target: https://pypi.python.org/pypi/pytemplates/
+   :alt: PyPI version fury.io
+
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3764453.svg
+   :target: https://doi.org/10.5281/zenodo.3764453
+   :alt: DOI
+
+
+.. image:: http://www.repostatus.org/badges/latest/active.svg
+   :target: http://www.repostatus.org/#active
+   :alt: Project Status
+ 
+
+.. image:: https://codecov.io/gh/Nelson-Gon/pytemplates/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/Nelson-Gon/pytemplates?branch=main
+   :alt: Codecov
+
+
+.. image:: https://github.com/Nelson-Gon/pytemplates/workflows/Test-Package/badge.svg
+   :target: https://github.com/Nelson-Gon/pytemplates/workflows/Test-Package/badge.svg
+   :alt: Test-Package
+
+
+.. image:: https://img.shields.io/pypi/l/pytemplates.svg
+   :target: https://pypi.python.org/pypi/pytemplates/
+   :alt: PyPI license
+
+
+.. image:: https://readthedocs.org/projects/pytemplates/badge/?version=latest
+   :target: https://pytemplates.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+
+.. image:: https://pepy.tech/badge/pytemplates
+   :target: https://pepy.tech/project/pytemplates
+   :alt: Total Downloads
+
+
+.. image:: https://pepy.tech/badge/pytemplates/month
+   :target: https://pepy.tech/project/pytemplates
+   :alt: Monthly Downloads
+
+
+.. image:: https://pepy.tech/badge/pytemplates/week
+   :target: https://pepy.tech/project/pytemplates
+   :alt: Weekly Downloads
+
+
+.. image:: https://img.shields.io/badge/Maintained%3F-yes-green.svg
+   :target: https://GitHub.com/Nelson-Gon/pytemplates/graphs/commit-activity
+   :alt: Maintenance
+
+
+.. image:: https://img.shields.io/github/last-commit/Nelson-Gon/pytemplates.svg
+   :target: https://github.com/Nelson-Gon/pytemplates/commits/main
+   :alt: GitHub last commit
+
+
+.. image:: https://img.shields.io/github/issues/Nelson-Gon/pytemplates.svg
+   :target: https://GitHub.com/Nelson-Gon/pytemplates/issues/
+   :alt: GitHub issues
+
+
+.. image:: https://img.shields.io/github/issues-closed/Nelson-Gon/pytemplates.svg
+   :target: https://GitHub.com/Nelson-Gon/pytemplates/issues?q=is%3Aissue+is%3Aclosed
+   :alt: GitHub issues-closed
+
+
 Welcome to our project. 
 
 **Please note that this is a template repository, click use template (do not fork unless suggesting an improvement) to use in a new project and edit files as required**. Also, see important notes at the end of this file. 
