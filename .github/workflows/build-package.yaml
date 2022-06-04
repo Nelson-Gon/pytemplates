@@ -42,4 +42,4 @@ jobs:
     - name: Test Script Mode
       run: python -m our_project -t "Hello World Project"
     - name: Build Docker image 
-      run: docker build --file Dockerfile -t "testing"
+      run: docker build . --file Dockerfile -t latest
