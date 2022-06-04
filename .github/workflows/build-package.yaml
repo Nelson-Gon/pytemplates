@@ -42,5 +42,4 @@ jobs:
     - name: Test Script Mode
       run: python -m our_project -t "Hello World Project"
     - name: Build Docker image 
-      run: docker build . --file Dockerfile -t latest
-      run: docker log -f "$(docker ps | tail -1)" 
+      run: docker build . --file Dockerfile -t latest && docker logs -f "$(docker ps | head -1)" 
