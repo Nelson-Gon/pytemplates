@@ -1,5 +1,5 @@
-FROM debian11
-FROM python3.9
+FROM debian:bullseye
+FROM python3.9:bullseye
 
 RUN apt-get update -y && apt-get install -y git
 CMD ["python", "pip", "install", "-e", "."]
