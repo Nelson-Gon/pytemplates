@@ -34,7 +34,7 @@ jobs:
       #   CODECOV_TOKEN: ${{secrets.CODECOV_TOKEN}}
       # Only use the above if running in a private repository 
       run: |
-       coverage run tests.py && coverage report -m && coverage xml 
+       python3 -m pytest --cov-report term --cov-report xml:coverage.xml --cov=our_project
        curl -Os https://uploader.codecov.io/latest/linux/codecov
        chmod +x codecov 
        ./codecov -t ${CODECOV_TOKEN} -R $(realpath "$(pwd)"/..) -f "coverage.xml"
